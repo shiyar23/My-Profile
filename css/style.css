@@ -96,13 +96,13 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* background: url('../image/home.jpg') no-repeat; */
+    background: url('../image/hologram.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .home-content {
-    max-width: 60rem;
+    /* max-width: 60rem; */
     z-index: 99;
 }
 
@@ -245,7 +245,7 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 10rem;
+    bottom: 0rem;
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -829,6 +829,7 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 768px) {
+
     
     .header {
         background: var(--bg-color);
@@ -921,6 +922,8 @@ section:nth-child(odd) .animate.scroll,
 
     .home-sci {
         width: 160px;
+        position: absolute;
+        bottom: -1em;
     }
 
     .home-sci a {
